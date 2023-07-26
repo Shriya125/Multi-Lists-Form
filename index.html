@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Faculty Input</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="facName">Name</label>
+                    <input type="text" id="facName" name="facName" placeholder="Enter Faculty Name"/>
+                </div>
+
+                <!-- <div class="course-details-box">
+
+                    <div class="course-details">
+                        <label for="">Course</label>
+                        <select name="course" id="course" onchange="populate(this.id,'sub')">
+                            <option value="">-- Select Course --</option>
+                            <option value="SE">SE</option>
+                            <option value="TE">TE</option>
+                            <option value="BE">BE</option>
+                        </select>
+                    </div>
+
+                    <div class="course-details">
+                        <label for="">Subjects</label>
+                        <select name="sub" id="sub">
+
+                        </select>
+                    </div>
+
+                </div> -->
+
+            <div class="subject-details">
+                <label for="">Course</label>
+                <select name="" id="first">
+                    <option value="">Select Course</option>
+                </select>
+                <select name="" id="second">
+                    <option value="">Select Semester</option>
+                </select>
+                <select name="" id="third">
+                    <option value="">Select Subject</option>
+                </select>
+            </div>
+
+                <div class="user-input-box">
+                    <label for="lec">No. of theory lectures</label>
+                    <input type="text" id="theory" name="theory" placeholder="Enter Weekly Lecs"/>
+                </div>
+
+                <div class="user-input-box">
+                    <label for="lec">No. of practical lectures</label>
+                    <input type="text" id="prac" name="prac" placeholder="Enter Weekly Lecs"/>
+                </div>
+
+                <div class="form-submit-btn">
+                    <input type="submit" value="Submit">
+                </div>
+
+                </div>
+        </form>
+    </div>
+
+    <script src="tt.js"></script>
+
+</body>
+</html>
